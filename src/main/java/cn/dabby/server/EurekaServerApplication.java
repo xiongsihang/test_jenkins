@@ -19,4 +19,9 @@ public class EurekaServerApplication {
 	public String getName() {
 		return "I am Bob";
 	}
+	
+	@RequestMapping("/hello")
+	public String setName(String name) {
+		return "Hello," + name;
+	}
 }

@@ -26,7 +26,7 @@ public class EurekaServerApplication {
 	}
 	
 	@RequestMapping("/hook")
-	public String hook() {
+	public String hook() { 
 		return "hook成功生效";
 	}
 	

@@ -24,4 +24,11 @@ public class EurekaServerApplication {
 	public String setName(String name) {
 		return "Hello," + name;
 	}
+	
+	@RequestMapping("/hook")
+	public String hook() {
+		return "hook成功生效";
+	}
+	
+	
 }
